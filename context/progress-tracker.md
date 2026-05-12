@@ -9,11 +9,12 @@ change.
 
 ## Current Goal
 
-- Implement Design System Foundation (01-design-system.md)
+- Implement Studio Shell (02-studio-shell.md)
 
 ## Completed
 
 - 01-design-system.md: Tailwind config, UI primitives, and layout styling.
+- 02-studio-shell.md: Studio shell architecture implemented (Navbar, Sidebar, Layout).
 
 ## In Progress
 
@@ -21,7 +22,7 @@ change.
 
 ## Next Up
 
-- [First unit to build]
+- [Next feature unit]
 
 ## Open Questions
 
