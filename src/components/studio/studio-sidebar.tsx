@@ -11,7 +11,7 @@ const navItems = [
 export function StudioSidebar() {
   return (
     <aside className="flex h-full w-[280px] flex-col border-r border-border-default bg-surface/80 backdrop-blur-md">
-      <div className="flex flex-col gap-2 p-4">
+      <nav aria-label="Studio navigation" className="flex flex-col gap-2 p-4">
         {navItems.map((item) => (
           <Link
             key={item.label}
@@ -22,7 +22,7 @@ export function StudioSidebar() {
             {item.label}
           </Link>
         ))}
-      </div>
+      </nav>
       
       <div className="flex-1 overflow-y-auto p-4">
         <h3 className="mb-2 px-3 text-xs font-semibold uppercase tracking-wider text-muted">

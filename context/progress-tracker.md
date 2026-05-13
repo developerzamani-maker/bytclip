@@ -9,20 +9,24 @@ change.
 
 ## Current Goal
 
-- Implement Studio Shell (02-studio-shell.md)
+- Video Player Module (05-video-player.md)
 
 ## Completed
 
 - 01-design-system.md: Tailwind config, UI primitives, and layout styling.
 - 02-studio-shell.md: Studio shell architecture implemented (Navbar, Sidebar, Layout).
+- 03-source-ingestion.md: Source Ingestion UI (IngestionStage, YoutubeInput, UploadZone, Zod validation, Server Actions).
+- 04-database-schema.md: Firestore initialization, Emulator setup, Zod schemas, and typed helpers.
+- 05-video-player.md: Video player module UI setup.
+- 06-transcript-extraction.md: YouTube metadata and transcript extraction service via server actions and UI feedback integration.
 
 ## In Progress
 
-- None yet.
+- 07-gemini-analysis.md (Next Step for Phase 2)
 
 ## Next Up
 
-- [Next feature unit]
+- 08-timeline-editor.md
 
 ## Open Questions
 
