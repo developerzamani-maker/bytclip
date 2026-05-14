@@ -32,6 +32,10 @@
 - **Access Control**: Since this is an internal "Studio" tool, authenticated team members have global access to all projects and brands.
 - **Environment Isolation**: A `BYTCLIP_ENV` flag separates Dev and Prod data within the shared Firestore/R2 infrastructure.
 
+## Development Environment
+
+- **Firebase Local Emulator Suite**: For local development, the application connects to the Firebase Local Emulator for Firestore and Auth. This avoids writing to production during testing and allows local development without deploying security rules.
+
 ## Invariants
 
 1. **Serial Processing**: The In-Memory queue must never allow more than one heavy FFmpeg job per Cloud Run instance to prevent OOM/Disk exhaustion.
